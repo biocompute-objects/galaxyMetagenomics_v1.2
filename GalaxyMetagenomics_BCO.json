@@ -1,76 +1,60 @@
 {
-    "object_id": 1134, 
-    "type": "Metagenomics_Galaxy", 
+    "BCO_id": "https://github.com/biocompute-objects/galaxyMetagenomics_v1.2/blob/master/GalaxyMetagenomics_BCO.json", 
+    "type": "Metagenomics_Galaxy",
+    "digital_signature": "PukC9V4qJ9MCW9gy",
+    "bco_spec_version" : "v1.2",
     "provenance_domain": {
-        "name": "Metagenomics pipeline for the identification and analysis of most common organism and general composition of organisms found in human fecal sample", 
-        "structured_name": null,
-        "version": "1.1",
-        "digital_signature": "PukC9V4qJ9MCW9gy", 
+        "name": "Metagenomics pipeline for the identification and analysis of most common organism and general composition of organisms found in human fecal sample",
+        "version": "1.3",
         "review": [
             {
                 "status": "approved",
                 "comment": "Approved by GW staff. Waiting for approval from Otsuka Reviewer",
                 "reviewer": {
-                    "orcid": {
-                        "orc_id": "https://orcid.org/0000-0003-1409-4549",
-                        "contribution": "createdBy"
-                    }
+                    "name": "Charles Hadley King",
+                    "affiliation": "George Washington University", 
+                    "email": "hadley_king@gwu.edu",
+                    "contribution": ["createdBy"],
+                    "orcid": "https://orcid.org/0000-0003-1409-4549"
                 }
             },
             {
                 "status": "approved",
                 "comment": "Approved by GW staff.",
                 "reviewer": {
-                    "orcid": {
-                        "orc_id": "https://orcid.org/0000-0002-8824-4637",
-                        "contribution": "modifiedBy"
-                    }
-                }
-            },
-            {
-                "status": "pending",
-                "comment": null,
-                "reviewer": {
-                    "type": "entity", 
-                    "entity": { 
-                        "name": "Srikanth Gottipati", 
-                        "affiliation": "OTSUKA Pharmaceutical Development & Commercialization, Inc, Princeton, NJ, USA", 
-                        "email": "Srikanth.Gottipati@otsuka-us.com",
-                        "contribution": "retrievedBy"
-                    }
+                    "name": "Janisha Patel",
+                    "affiliation": "George Washington University", 
+                    "email": "janishapatel@gwu.edu",
+                    "contribution": ["modifiedBy"],
+                    "orc_id": "https://orcid.org/0000-0002-8824-4637"
                 }
             }
         ],
         "derived_from" : null,
-        "obsolete" : null,
+        "obsolete" : "2118-09-26T14:43:43-0400",
         "embargo" : {
-            "start_time": null,
-            "end_time": null
+            "start_time": "2000-09-26T14:43:43-0400",
+            "end_time": "2000-09-26T14:43:45-0400"
         },
-        "created": "2018-06-18T11:40:45-0400", 
-        "modified": "2018-09-18T16:40:17-0400", 
+        "created": "2018-06-18T11:40:45-0400",
+        "modified": "2018-09-18T16:40:17-0400",
         "contributors": [
             {
-                "type": "entity", 
-                "entity": { 
-                    "name": "", 
-                    "affiliation": "",
-                    "email": "",
-                    "contribution": "authoredBy"
-                }
+                "name": "Charles Hadley King",
+                "affiliation": "George Washington University", 
+                "email": "hadley_king@gwu.edu",
+                "contribution": ["authoredBy"],
+                "orcid": "https://orcid.org/0000-0003-1409-4549"
             },
             {
-                "type": "orcid",
-                "orcid": {
-                    "orc_id": "https://orcid.org/0000-0003-1409-4549",
-                    "contribution": "createdBy"
-                }
+                "name": "Janisha Patel",
+                "affiliation": "George Washington University", 
+                "email": "janishapatel@gwu.edu",
+                "contribution": ["modifiedBy", "curatedBy"],
+                "orc_id": "https://orcid.org/0000-0002-8824-4637"
             }
-        ],
-        "license":{
-            "address": "https://creativecommons.org/licenses/by/4.0/",
-            "access_time": "2017-01-24T09:40:17-0500"
-        }
+		],
+        "license": "https://creativecommons.org/licenses/by/4.0/"
     },
     "usability_domain": [
         "Identify the most common organism present in a human [taxID:9606] fecal [UBERON:0001988] sample", 
@@ -117,7 +101,6 @@
                         }
                     ],
                     "output_list": [
-
                     ]
                 },
                 {
@@ -562,5 +545,8 @@
             }
         ]
     }, 
-    "error_domain": null
+    "error_domain": {
+        "empirical_error": null,
+        "algorithmic_error": null
+    }
 }
